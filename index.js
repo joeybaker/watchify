@@ -1,6 +1,6 @@
 var through = require('through2');
 var path = require('path');
-var chokidar = require('chokidar');
+var chokidar = require('@joeybaker/chokidar');
 var xtend = require('xtend');
 var anymatch = require('anymatch');
 
