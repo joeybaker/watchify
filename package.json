@@ -1,7 +1,7 @@
 {
-  "name": "watchify",
+  "name": "@joeybaker/watchify",
   "version": "3.7.0",
-  "description": "watch mode for browserify builds",
+  "description": "watch mode for browserify builds. This fork uses a fork of chokidar that uses graceful-fs to prevent EMFIlE errors.",
   "main": "index.js",
   "bin": "bin/cmd.js",
   "dependencies": {
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/substack/watchify.git"
+    "url": "git://github.com/joeybaker/watchify.git"
   },
   "homepage": "https://github.com/substack/watchify",
   "keywords": [

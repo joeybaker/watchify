@@ -1,6 +1,6 @@
 # watchify
 
-watch mode for [browserify](https://github.com/substack/node-browserify) builds
+watch mode for [browserify](https://github.com/substack/node-browserify) builds. This fork uses a fork of chokidar that uses graceful-fs to prevent EMFIlE errors.
 
 [![build status](https://secure.travis-ci.org/substack/watchify.png)](http://travis-ci.org/substack/watchify)
 
